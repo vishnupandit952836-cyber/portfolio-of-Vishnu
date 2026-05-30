@@ -1,156 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Beginner Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Sharma | Portfolio</title>
 
-    <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+</head>
 <body>
 
     <!-- Navbar -->
-    <div class="navbar">
+    <header>
+        <nav class="navbar">
+            <div class="logo">Vishnu.</div>
 
-        <h1 class="logo">Vishnu</h1>
-
-        <div class="nav-links">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Contact</a>
-        </div>
-
-    </div>
-
-
-
-
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
-    <div class="hero">
+    <section class="hero" id="home">
 
-        <div class="left">
-
-            <h2>Hello, I'm vishnu sharma</h2>
-
-            <h1>Beginner Web Developer</h1>
+        <div class="hero-text">
+            <h3>Hello, It's Me</h3>
+            <h1>Vishnu Sharma</h1>
+            <h2>Frontend Developer</h2>
 
             <p>
-                I create simple and responsive websites using
-                HTML, CSS and JavaScript.
+                I create responsive and modern websites using
+                HTML and CSS. Passionate about learning web
+                development and building beautiful user interfaces.
             </p>
 
-            <button>Hire Me</button>
+            <div class="hero-btns">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="vishnuresumepdf.pdf" class="btn btn-outline">Download CV</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="porfolioimage2.jpeg" alt="Profile Image">
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <p>
+               
+Hi, I'm Vishnu Sharma, a passionate Frontend Developer
+and Computer Science student. I enjoy creating responsive
+websites and learning modern web technologies.
+
+I have worked on IoT projects such as Smart Water Level
+Monitoring System and Smart Garbage Monitoring System.
+My goal is to become a professional Full Stack Web Developer.
+
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+     <section>
+     <div class="skills-container">
+
+    <div class="skill-card">
+        <i class="fa-brands fa-html5"></i>
+        <h3>HTML</h3>
+    </div>
+
+    <div class="skill-card">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h3>CSS</h3>
+    </div>
+
+    <div class="skill-card">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+    </div>
+
+    <div class="skill-card">
+        <i class="fa-brands fa-github"></i>
+        <h3>GitHub</h3>
+    </div>
+
+    <div class="skill-card">
+        <i class="fa-solid fa-display"></i>
+        <h3>Responsive Design</h3>
+    </div>
+
+</div>
+   
+
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+
+            
+            <div class="project-card">
+                <div class="project-card">
+    <h3>Smart Water Level Monitoring System</h3>
+
+    <p>
+        IoT based system that monitors water tank levels
+        in real time and helps prevent overflow and
+        water wastage.
+    </p>
+</div>
+
+<div class="project-card">
+    <h3>Smart Garbage Monitoring System</h3>
+
+    <p>
+        Smart waste management solution using sensors
+        to monitor garbage bin levels and improve
+        collection efficiency.
+    </p>
+</div>
+
+<div class="project-card">
+    <h3>Personal Portfolio Website</h3>
+
+    <p>
+        Responsive portfolio website developed using
+        HTML and CSS showcasing skills and projects.
+    </p>
+</div>
+                                                                           
+                    Responsive timer interface design.
+                </p>
+            </div>
 
         </div>
 
+    </section>
 
-        <div class="right">
+    <!-- Contact -->
+    <section class="contact" id="contact">
 
-            <img src="profileimage2.jpg.jpeg">
+        <h2 class="section-title">Contact Me</h2>
 
-        </div>
+        <form class="contact-form">
 
-    </div>
+            <input type="text" placeholder="Your Name">
 
+            <input type="email" placeholder="Your Email">
 
+            <textarea rows="6" placeholder="Your Message"></textarea>
 
+            <button type="submit" class="btn">
+                Send Message
+            </button>
 
+        </form>
 
+    </section>
 
-    <!-- Skills Section -->
-    <div class="skills">
-
-        <h1 class="title">My Skills</h1>
-
-        <div class="skill-box">
-
-
-            <div class="box">
-
-                <i class="fa-brands fa-html5"></i>
-
-                <h2>HTML</h2>
-
-                <p>
-                    Creating webpage structure using HTML tags.
-                </p>
-
-            </div>
-
-
-
-
-
-            <div class="box">
-
-                <i class="fa-brands fa-css3-alt"></i>
-
-                <h2>CSS</h2>
-
-                <p>
-                    Styling websites with colors, layouts and animations.
-                </p>
-
-            </div>
-
-
-
-
-
-            <div class="box">
-
-                <i class="fa-brands fa-js"></i>
-
-                <h2>JavaScript</h2>
-
-                <p>
-                    Adding simple functionality and interactions to websites.
-                </p>
-
-            </div>
-
-
-
-
-
-            <div class="box">
-
-                <i class="fa-solid fa-computer"></i>
-
-                <h2>Computer Fundamentals</h2>
-
-                <p>
-                    Basic knowledge of computers, internet and software.
-                </p>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-
-
-
-
-
-    <!-- Contact Section -->
-    <div class="contact">
-
-        <h1>Contact Me</h1>
-
-        <p>Email : vishnupandit952836@gmail.com</p>
-
-        <p>Phone : +91 9528361866</p>
-
-    </div>
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Vishnu Sharma | All Rights Reserved</p>
+    </footer>
 
 </body>
 </html>
