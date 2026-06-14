@@ -57,19 +57,19 @@ header{
 
 .email-box{
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .email-box input{
     width:100%;
     max-width: 400px;
-    padding: 15px 20px;
+    padding: 20px 20px;
     border:none;
     outline:none;
     border-radius:50px;
-    background:#1f1f1f;
-    color:white;
-    font-size:16px;
+    background:white;
+    color:blue;
+    font-size:1px;
 }
 
 
@@ -130,12 +130,12 @@ header{
 }
 
 .hero-image img{
-    width:280px;
-    height:420px;
+    width:400px;
+    height:400px;
     border-radius:50%;
     object-fit:cover;
     border:5px solid #d3d9db;
-    box-shadow:0 0 30px #d37130;
+    box-shadow:0 0 30px orchid;
 }
 
 section{
