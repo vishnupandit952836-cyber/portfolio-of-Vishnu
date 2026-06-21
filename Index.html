@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,15 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-<!-- Navbar -->
+
+    <!-- Navbar -->
     <header>
         <nav class="navbar">
             <div class="logo">Vishnu Sharma</div>
@@ -21,6 +24,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -33,17 +37,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         <div class="hero-text">
             <h3>Hello, I'm</h3>
             <h1>Vishnu Sharma</h1>
-            <h2>Frontend Developer</h2>
+            <h2>Web Developer</h2>
 
             <p>
-                I will create modern websites using
-                HTML and CSS. Passionate about learning web
-                development and building beautiful user interfaces.
+                Passionate Frontend Developer creating modern,
+                responsive and user-friendly websites using
+                HTML, CSS and JavaScript.
             </p>
-            <div class="email box">
-                <input 
-                    type="email"
-                    placeholder="Enter your email address">
+
+            <div class="hero-btns">
+                <input type="email" placeholder="Enter your email" class="email-input">
+                <button class="btn">Submit</button>
             </div>
 
             <div class="hero-btns">
@@ -53,7 +57,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         </div>
 
         <div class="hero-image">
-            <img src="porfolioimage2.jpeg" alt="Profile Image">
+            <!-- IMAGE PORTFOLIO -->
+            <img src="NEW IMAGE.jpeg" alt="Profile Image">
         </div>
 
     </section>
@@ -65,52 +70,60 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
         <div class="about-content">
             <p>
-               
-Hi, I'm Vishnu Sharma, A passionate Frontend Developer
-and Computer Science student. I will enjoying the Web development for creating 
-websites and learning modern web technologies.
+                Hi, I'm Vishnu Sharma, a passionate Frontend Developer
+                and Computer Science student. I enjoy web development,
+                creating websites, and learning modern web technologies.
 
-I have worked on IoT projects such as Smart Water Level
-Monitoring System and Smart Garbage Monitoring System.
-My goal is to become a professional Full Stack Web Developer.
-
+                I have worked on IoT projects such as Smart Water Level
+                Monitoring System and Smart Garbage Monitoring System.
+                My goal is to become a professional Full Stack Web Developer.
             </p>
         </div>
 
     </section>
 
     <!-- Skills -->
-     <section class="skills" id="skills">
+    <section class="skills" id="skills">
+
         <h2 class="section-title">My Skills</h2>
-     <div class="skills-container">
 
-    <div class="skill-card">
-        <i class="fa-brands fa-html5"></i>
-        <h3>HTML</h3>
-    </div>
+        <div class="skills-content">
+            <p>
+                As a Full Stack Developer, I create modern, responsive,
+                and scalable web applications/websites. I work on frontend
+                and basic backend development to deliver fast, secure,
+                and user-friendly solutions.
+            </p>
+        </div>
 
-    <div class="skill-card">
-        <i class="fa-brands fa-css3-alt"></i>
-        <h3>CSS</h3>
-    </div>
+        <div class="skills-container">
 
-    <div class="skill-card">
-        <i class="fa-brands fa-js"></i>
-        <h3>JavaScript</h3>
-    </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
 
-    <div class="skill-card">
-        <i class="fa-brands fa-github"></i>
-        <h3>GitHub</h3>
-    </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
 
-    <!-- <div class="skill-card">
-        <i class="fa-solid fa-display"></i>
-        <h3>Responsive Design</h3>
-    </div> -->
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
 
-</div>
-   
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+
+        </div>
 
     </section>
 
@@ -121,52 +134,55 @@ My goal is to become a professional Full Stack Web Developer.
 
         <div class="project-container">
 
-            
             <div class="project-card">
-                <div class="project-card">
-    <h3>Smart Water Level Monitoring System</h3>
+                <h3>
+                    <i class="fa-solid fa-recycle"></i>
+                    Smart Garbage Monitoring System
+                </h3>
 
-    <p>
-        IoT based system that monitors water tank levels
-        in real time and helps prevent overflow and
-        water wastage.
-    </p>
-</div>
-
-<div class="project-card">
-    <h3>Smart Garbage Monitoring System</h3>
-
-    <p>
-        Smart waste management solution using sensors
-        to monitor garbage bin levels and improve
-        collection efficiency.
-    </p>
-</div>
-
-<div class="project-card">
-    <h3>Personal Portfolio Website</h3>
-
-    <p>
-        Portfolio website developed using
-        HTML and CSS showcasing skills and projects.
-    </p>
-</div>
-<div class="project-card">
-    <h3>Weather Prediction Model</h3>
-
-    <p>
-        Machine Learning based weather prediction model
-        that forecasts weather conditions using historical
-        weather data and data analysis techniques.
-    </p>
-
-    <a href="#" class="https://weatherappbyvishnu.netlify.app/" target="_blank">
-        View Project
-    </a>
-</div>
-                                                                           
-                    <!-- Responsive timer interface design. -->
+                <p>
+                    Smart waste management solution using sensors
+                    to monitor garbage bin levels and improve
+                    collection efficiency.
                 </p>
+
+                <div class="project-buttons">
+                    <a href="https://dashboard-netlify-app.netlify.app/" class="btn-blue">Dashboard Link</a>
+                    <a href="SMART GARBAGE MONITORING SYSTEM Report file-1.pdf" class="btn-white">Project Report File</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>
+                    <i class="fa-solid fa-id-card"></i>
+                    Portfolio Website
+                </h3>
+
+                <p>
+                    Portfolio website developed using HTML and CSS
+                    showcasing skills and projects.
+                </p>
+
+                <a href="https://your-portfolio-link.com" target="_blank" class="btn-blue">
+                    View Portfolio
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>
+                    <i class="fa-solid fa-cloud"></i>
+                    Weather Prediction Model
+                </h3>
+
+                <p>
+                    Machine Learning based weather prediction model
+                    that forecasts weather conditions using historical
+                    weather data and data analysis techniques.
+                </p>
+
+                <a href="https://weatherappbyvishnu.netlify.app/" target="_blank" class="btn-blue">
+                    Click Here for Project
+                </a>
             </div>
 
         </div>
@@ -178,19 +194,51 @@ My goal is to become a professional Full Stack Web Developer.
 
         <h2 class="section-title">Contact Me</h2>
 
-        <form class="contact-form">
+        <div class="contact-wrapper">
 
-            <input type="text" placeholder="Your Name">
+            <div class="contact-info">
 
-            <input type="email" placeholder="Your Email">
+                <a href="mailto:vishnupandit952836@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <span>Email Me</span>
+                </a>
 
-            <textarea rows="6" placeholder="Your Message"></textarea>
+                <a href="https://www.linkedin.com/in/vishnu-sharma-443b59407?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <span>LinkedIn Profile</span>
+                </a>
 
-            <button type="submit" class="btn">
-                Send Message
-            </button>
+                <a href="https://share.google/Q5PdPsbDEKJc0whmv" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <span>GitHub Profile</span>
+                </a>
 
-        </form>
+                <a href="tel:+919528361866 " class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <span>Call Me</span>
+                </a>
+
+            </div>
+
+            <form class="contact-form">
+
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn">Send</button>
+
+            </form>
+
+        </div>
 
     </section>
 
@@ -200,4 +248,5 @@ My goal is to become a professional Full Stack Web Developer.
     </footer>
 
 </body>
+
 </html>
